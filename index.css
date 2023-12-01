@@ -1,6 +1,6 @@
 #header {
 
-    background-color: black;
+    background-color: rgb(20, 8, 0);
 
 }
 
@@ -11,23 +11,26 @@
 
 #menu {
     color: white;
-    
+
     display: inline-block;
 }
 
-ul{
-text-decoration: none;
 
-}
 
-#content{
+#content {
 
     background-color: rgb(255, 239, 218);
 }
 
-#footer{
-padding: 5px;
-    background-color: black;
+#intro {
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+#footer {
+    padding: 5px;
+    background-color: rgb(20, 8, 0);;
     color: white;
     text-align: center;
 
