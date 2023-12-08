@@ -1,7 +1,7 @@
 #header {
-
+color: #FFF;
     background-color: rgb(20, 8, 0);
-
+   
 }
 
 #logo {
@@ -9,16 +9,20 @@
     padding: 10px;
 }
 
-#menu {
+#menu li {
     color: white;
-
     display: inline-block;
+    font-size: 2em;
+    
+    padding: 10px;
+
+
 }
 
 
 
 #content {
-
+    display: inline-block;
     background-color: rgb(255, 239, 218);
 }
 
@@ -26,11 +30,21 @@
     padding-top: 10px;
     text-align: center;
 
+
+}
+
+#product {
+
+    padding: 10px;
+
+
+
 }
 
 #footer {
     padding: 5px;
-    background-color: rgb(20, 8, 0);;
+    background-color: rgb(20, 8, 0);
+
     color: white;
     text-align: center;
 
