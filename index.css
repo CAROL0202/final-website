@@ -4,14 +4,14 @@
 
 }
 
-#logo{
+#logo {
 
     padding: 10px;
 }
 
 #menu {
     position: absolute;
-    top: 2%;
+    top: 3%;
     left: 15%;
     text-align: right;
 }
@@ -38,8 +38,7 @@
 
 #menu a:hover {
     text-decoration: none;
-    background-color: #2b2a2a;
-
+    color: #b3b3b3;
 
 }
 
@@ -47,13 +46,14 @@
 #content {
     text-align: center;
     background-color: rgb(255, 239, 218);
-
+   
 }
 
 #intro {
 
     padding-top: 10px;
     color: black;
+ padding-bottom: 20px;
 
 
 }
