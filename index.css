@@ -1,50 +1,76 @@
 #header {
-color: #FFF;
-    background-color: rgb(20, 8, 0);
-   
+    color: #FFF;
+    background-color: rgb(0, 0, 0);
+
 }
 
-#logo {
+#logo{
 
     padding: 10px;
+}
+
+#menu {
+    position: absolute;
+    top: 2%;
+    left: 15%;
+    text-align: right;
 }
 
 #menu li {
-    color: white;
     display: inline-block;
     font-size: 2em;
-    
     padding: 10px;
+    text-decoration: none;
+
+}
+
+#menu a:link {
+
+    text-decoration: none;
+}
+
+#menu a:visited {
+    text-decoration: none;
+    color: #FFF;
 
 
 }
 
+#menu a:hover {
+    text-decoration: none;
+    background-color: #2b2a2a;
+
+
+}
 
 
 #content {
-    display: inline-block;
+    text-align: center;
     background-color: rgb(255, 239, 218);
+
 }
 
 #intro {
+
     padding-top: 10px;
-    text-align: center;
+    color: black;
 
 
 }
 
-#product {
 
+#product img {
     padding: 10px;
-
-
-
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 25px;
+    background-color: #fff1e3;
 }
+
 
 #footer {
     padding: 5px;
-    background-color: rgb(20, 8, 0);
-
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
 
