@@ -1,0 +1,46 @@
+#header {
+    color: #FFF;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+
+}
+
+#logo {
+    padding: 10px;
+}
+
+#logo li {
+
+    display: inline;
+    color: #FFF;
+    font-size: 2em;
+
+
+
+}
+
+#logo ul {
+   
+    display: inline;
+    word-spacing: 10px;
+
+
+}
+
+#logo a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#logo a:visited {
+    text-decoration: none;
+    color: #FFF;
+
+
+}
+
+#logo a:hover {
+    text-decoration: none;
+    color: #b3b3b3;
+
+}
