@@ -61,6 +61,10 @@
 
 }
 
+.product {
+    
+    position: relative;
+}
 
 #product img {
     padding: 10px;
@@ -68,22 +72,29 @@
     border: 5px solid black;
     border-radius: 25px;
     background-color: #fff1e3;
-    position: relative;
+
 
 }
 
 .h3hover {
     position: absolute;
     color: #FFF;
-    width: 240px;
-    height: 240px;
-    border: #FFF solid 5px;
+    width: 264px;
+    height: 260px;
+    background-color: rgb(255, 121, 26, 30%);
     text-align: center;
     align-items: center;
     justify-content: center;
-   
+    top: 8%;
+    left: 20%;
+    display: flex;
+    border-radius: 20px;
+    opacity: 0;
 }
+.h3hover:hover{
+    opacity: 1;
 
+}
 
 #footer {
     padding: 5px;
