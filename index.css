@@ -20,7 +20,7 @@
 }
 
 #logo ul {
-    justify-content: end;
+   
     display: inline;
     word-spacing: 10px;
 
@@ -81,7 +81,7 @@
     color: #FFF;
     width: 264px;
     height: 260px;
-    background-color: rgb(255, 121, 26, 30%);
+    background-color: rgba(207, 100, 0, 0.3);
     text-align: center;
     align-items: center;
     justify-content: center;
