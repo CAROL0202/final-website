@@ -48,20 +48,33 @@
 #content {
 
     background-color: rgb(255, 239, 218);
-    justify-content: center;
-    padding-top: 100px;
+
+    padding-top: 120px;
 }
 
 #product {
-    padding: 20px;
-    /*background-color: rgba(255, 206, 184, 0.5);*/
-    border-radius: 3%;
+    padding-top: 30px;
+    padding-left: 21%;
 }
 
-#content ul {
-    display: inline;
+#product img {
+
+    margin-bottom: 20px;
+}
+
+a:link{
+  color: black;  
+}
+.title {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15%;
+    border: solid rgb(32, 8, 1) 4px;
+    padding: 10px;
 
 }
+
+
+
 
 #footer {
     padding: 5px;
