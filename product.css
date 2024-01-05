@@ -2,7 +2,7 @@
     color: #FFF;
     background-color: rgb(0, 0, 0);
     position: fixed;
-
+    z-index: 999;
 }
 
 #logo {
@@ -20,7 +20,7 @@
 }
 
 #logo ul {
-   
+
     display: inline;
     word-spacing: 10px;
 
@@ -42,5 +42,31 @@
 #logo a:hover {
     text-decoration: none;
     color: #b3b3b3;
+
+}
+
+#content {
+
+    background-color: rgb(255, 239, 218);
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#product {
+    padding: 20px;
+    /*background-color: rgba(255, 206, 184, 0.5);*/
+    border-radius: 3%;
+}
+
+#content ul {
+    display: inline;
+
+}
+
+#footer {
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
 
 }

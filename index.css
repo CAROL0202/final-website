@@ -2,7 +2,7 @@
     color: #FFF;
     background-color: rgb(0, 0, 0);
     position: fixed;
-
+    z-index: 999;
 }
 
 #logo {
@@ -20,7 +20,7 @@
 }
 
 #logo ul {
-   
+
     display: inline;
     word-spacing: 10px;
 
@@ -61,8 +61,8 @@
 
 }
 
-.product {
-    
+.product{
+
     position: relative;
 }
 
@@ -79,7 +79,7 @@
 .h3hover {
     position: absolute;
     color: #FFF;
-    width: 264px;
+    width: 265px;
     height: 260px;
     background-color: rgba(207, 100, 0, 0.3);
     text-align: center;
@@ -91,7 +91,8 @@
     border-radius: 20px;
     opacity: 0;
 }
-.h3hover:hover{
+
+.h3hover:hover {
     opacity: 1;
 
 }
