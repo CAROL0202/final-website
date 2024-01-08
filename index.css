@@ -20,7 +20,7 @@
 }
 
 #logo ul {
-
+    
     display: inline;
     word-spacing: 10px;
 
@@ -51,7 +51,7 @@
     background-color: rgb(255, 239, 218);
     padding-top: 130px;
     padding-bottom: 20px;
-   
+
 }
 
 
@@ -64,7 +64,7 @@
 
 }
 
-.product{
+.product {
 
     position: relative;
 }

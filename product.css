@@ -48,25 +48,26 @@
 #content {
 
     background-color: rgb(255, 239, 218);
-
+    padding-left: 25%;
     padding-top: 120px;
 }
 
-#product {
+.product {
     padding-top: 30px;
-    padding-left: 21%;
+
 }
 
-#product img {
+.product img {
 
     margin-bottom: 20px;
 }
 
 
 
-a:link{
-  color: black;  
+a:link {
+    color: black;
 }
+
 .title {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 15%;
