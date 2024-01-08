@@ -45,6 +45,17 @@
 
 }
 
+#content {
+    text-align: center;
+    background-color: rgb(255, 239, 218);
+    padding-top: 130px;
+    height: 650px;
+}
+
+#content p {
+
+    display: inline;
+}
 
 #footer {
     padding: 5px;
