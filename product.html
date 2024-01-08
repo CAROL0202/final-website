@@ -10,7 +10,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
 </head>
 
-
 <body>
     <div id="header" class="container-fluid">
 
@@ -31,7 +30,7 @@
     <div id="content" class="container-fluid row">
 
         <div class="container product col-sm-12 col-md-12 col-lg-12" id="p01">
-            <img src="/img/封/1.png" alt="" class="title">
+            <img src="/img/封/1.png" alt="" class="title" id="main">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
                 Ex dolore itaque corrupti sequi! Amet
@@ -44,7 +43,7 @@
         </div>
 
         <div class="container product col-sm-12 col-md-12 col-lg-12" id="p02">
-            <img src="/img/封/2..png" alt="" class="title">
+            <img src="/img/封/2..png" alt="" class="title" id="main2">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 <br>Ex dolore itaque corrupti sequi! Amet
@@ -55,7 +54,7 @@
         </div>
 
         <div class="container product col-sm-12 col-md-12 col-lg-12" id="p03">
-            <img src="/img/封/3.png" alt="" class="title">
+            <img src="/img/封/3.png" alt="" class="title" id="main3">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing
                 <br>elit. Ex dolore itaque corrupti sequi! Amet
@@ -65,7 +64,7 @@
         </div>
 
         <div class="container product col-sm-6 col-md-12 col-lg-12" id="p04">
-            <img src="/img/封/4.png" alt="" class="title">
+            <img src="/img/封/4.png" alt="" class="title" id="main4">
             <p>
                 Lorem ipsum dolor sit amet consectetur
                 <br>adipisicing elit. Ex dolore itaque corrupti sequi! Amet
@@ -91,14 +90,50 @@
     </div>
 
     <script>
-        gsap.to("#p01", {
+        gsap.to("#main", {
             scrollTrigger: {
-                scrub: 2,
-                
+                scrub: 1,
+
+                end: "50px",//"+=200"
+                markers: true
             },
             rotation: 360,
+
         });
 
+
+
+        gsap.to("#main2", {
+            scrollTrigger: {
+                scrub: 1,
+                start: "800px",
+                end: "1000px",//"+=200"
+                markers: true
+            },
+            rotation: 360,
+
+        });
+
+        gsap.to("#main3", {
+            scrollTrigger: {
+                scrub: 1,
+                start: "2000px",
+                end: "2500px",//"+=200"
+                markers: true
+            },
+            rotation: 360,
+
+        });
+
+        gsap.to("#main4", {
+            scrollTrigger: {
+                scrub: 1,
+                start: "3300px",
+                end: "3800px",//"+=200"
+            },
+            rotation: 360,
+
+        });
     </script>
 
 </body>
