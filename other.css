@@ -44,3 +44,12 @@
     color: #b3b3b3;
 
 }
+
+
+#footer {
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+
+}
