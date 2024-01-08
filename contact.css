@@ -46,7 +46,7 @@
 }
 
 #content {
-    text-align: center;
+    align-items: center;
     background-color: rgb(255, 239, 218);
     padding-top: 130px;
     height: 650px;
@@ -59,6 +59,7 @@
 
 .img{
     padding: 10px;
+  padding-left: 40%;
 }
 
 #footer {
