@@ -2,11 +2,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>creator product</title>
+    <title>product</title>
     <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="bs/bs.css">
     <script src="js/bs.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
 </head>
 
 
@@ -27,9 +28,9 @@
         </div>
     </div>
 
-    <div id="content" class="container-fluid">
+    <div id="content" class="container-fluid row">
 
-        <div class="container product" id="p01">
+        <div class="container product col-sm-12 col-md-12 col-lg-12" id="p01">
             <img src="/img/封/1.png" alt="" class="title">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
@@ -42,7 +43,7 @@
 
         </div>
 
-        <div class="container product" id="p02">
+        <div class="container product col-sm-12 col-md-12 col-lg-12" id="p02">
             <img src="/img/封/2..png" alt="" class="title">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -53,7 +54,7 @@
             <img src="/img/2/螢幕擷取畫面 2024-01-05 115927.png" alt="">
         </div>
 
-        <div class="container product" id="p03">
+        <div class="container product col-sm-12 col-md-12 col-lg-12" id="p03">
             <img src="/img/封/3.png" alt="" class="title">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing
@@ -63,7 +64,7 @@
             <img src="/img/3/螢幕擷取畫面 2024-01-05 120026.png" alt="">
         </div>
 
-        <div class="container product" id="p04">
+        <div class="container product col-sm-6 col-md-12 col-lg-12" id="p04">
             <img src="/img/封/4.png" alt="" class="title">
             <p>
                 Lorem ipsum dolor sit amet consectetur
@@ -89,7 +90,16 @@
 
     </div>
 
+    <script>
+        gsap.to("#p01", {
+            scrollTrigger: {
+                scrub: 2,
+                
+            },
+            rotation: 360,
+        });
 
+    </script>
 
 </body>
 
