@@ -64,8 +64,13 @@
 
 
 
-a:link {
+#content a:link {
     color: black;
+}
+
+#content b:hover{
+
+   font-size:110%;
 }
 
 .title {
