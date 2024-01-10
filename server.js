@@ -53,26 +53,39 @@ server.set("view", __dirname + "/view");//(view)
 
 // });
 
-server.get("/", function (req, res) {
 
-    fs.readFile('/web')
-    res.send("http://127.0.0.1:5500/web/")
+server.get("/portfolio", function (req, res) {//------------接收form資料
 
-
-});
-
-server.get("/web", function (req, res) {
-    //var form = formidable({maxFileSize: 200*1024});
-    const form = new formidable.IncomingForm();
-    // form.maxFileSize = 200*1024;
-    form.parse(req, function (err, fields, files) {
-        console.log(fields);
-        console.log(files);
-
-        res.send("OK");
-    });
+    Birds.find({}).then(results => {
+        if (results != null) {
+            res.send(results);
+        } else {
+            res.send("Error!")
+        }
+    })
 
 })
+
+// server.get("/", function (req, res) {
+
+//     fs.readFile('/web')
+//     res.send("http://127.0.0.1:5500/web/")
+
+
+// });
+
+// server.get("/web", function (req, res) {
+//     //var form = formidable({maxFileSize: 200*1024});
+//     const form = new formidable.IncomingForm();
+//     // form.maxFileSize = 200*1024;
+//     form.parse(req, function (err, fields, files) {
+//         console.log(fields);
+//         console.log(files);
+
+//         res.send("OK");
+//     });
+
+// })
 
 
 //email to manager
