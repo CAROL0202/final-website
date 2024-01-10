@@ -168,31 +168,32 @@
         </p>
 
     </div>
-<script>
-    var mochi = new Vue({
-        el: "#card",
-        // data: {
-        //     todos: [
-        //         { src: "./img/yum02.jpg", name: "灰冠麻鷺"},
-        //         { src: "./img/sg02.jpg", name: "綠繡眼"},
-        //         { src: "./img/coo02.jpg", name: "珠頸鳩" },
-        //         { src: "./img/pekaboo02.jpg", name: "玄鳳鸚鵡",撮毛直接推翻達爾文進化論。", score: 64 },
-        //         { src: "./img/bu02.jpg", name: "笑翠鳥", nick: "「音效製造機」「哈哈哈哈哈」", content: "身高：47公分。翠鳥界的超巨，會發出的叫聲多到被抓去當影視音效的免費勞工。", score: 55 }
-        //     ]
-        // }
-        data: { todos: [] }
+    <script>
+        var mochi = new Vue({
+            el: "#card",
+            data: {
+                todos: [
+                    { src: "./web/img/封/1.png" },
+                    { src: "./web/img/封/1.png" },
+                    { src: "./web/img/封/1.png" },
+                    { src: "./web/img/封/1.png" },
+                    { src: "./web/img/封/1.png" },
+                    { src: "./web/img/封/1.png" },
+                ]
+            },
+            data: { todos: [] }
 
-    });
-    $.ajax({
-        url: "/portfolio",
-        method: "get",
-        dataType: "json",
-        success: function (data) {
-            mochi.todos = data;
-        }
+        });
+        $.ajax({
+            url: "/portfolio",
+            method: "get",
+            dataType: "json",
+            success: function (data) {
+                mochi.todos = data;
+            }
 
-    });
-</script>
+        });
+    </script>
 </body>
 
 </html>
