@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 server = express();
 var fs = require("fs");
 
-server.use(express.static(__dirname + "web"));//web root
+server.use(express.static("web"));//web root
 //server.use(express.static("md110"));//web root
 server.use(bodyParser.urlencoded());
 server.use(bodyParser.json());
