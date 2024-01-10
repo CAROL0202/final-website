@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 server = express();
 var fs = require("fs");
 
-server.use(express.static(__dirname+"/ScrollTrigger"));//web root
+server.use(express.static(__dirname+"/web"));//web root
 //server.use(express.static("md110"));//web root
 server.use(bodyParser.urlencoded({extended:true}));
 server.use(bodyParser.json());
