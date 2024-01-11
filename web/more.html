@@ -32,8 +32,8 @@
         </div>
     </div>
     <div id="content" class="container-fluid">
-        <div class="img" >
-            <img src="/img/LINE_logo.svg.png" alt="line" height="80px">
+        <div class="img" id="more">
+            <img src="/img/LINE_logo.svg.png" alt="line" height="80px" >
             <a href="https://store.line.me/stickershop/author/4081282/zh-Hant" target="_blank">
                 <p>creator 造物主</p>
             </a>
@@ -73,6 +73,33 @@
         </p>
 
     </div>
+
+    <script>
+        var mochi = new Vue({
+            el: "#more",
+            data: {
+                todos: [
+                    { src: "/img/LINE_logo.svg.png" },
+                    { src: "/img/page-info-2018126-ac3aa1eb-ba29-4db3-8478-5106acf2feef-600.png" },
+                    { src: "/img/fb_icon_325x325.png" },
+                    { src: "/img/3610206.png" },
+                   
+                ]
+            },
+            data: { todos: [] }
+
+        });
+        $.ajax({
+            url: "/portfolio",
+            method: "get",
+            dataType: "json",
+            success: function (data) {
+                mochi.todos = data;
+            }
+
+        });
+    </script>
+
 </body>
 
 </html>
