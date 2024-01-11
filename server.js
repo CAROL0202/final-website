@@ -123,5 +123,5 @@ server.get("/portfolio", function (req, res) {//------------接收form資料
 
 
 server.listen(5500, function () {
-    console.log("Server is running at port 8000!")
+    console.log("Server is running at port 8000! o3o")
 })
