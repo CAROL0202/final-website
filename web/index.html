@@ -168,32 +168,7 @@
         </p>
 
     </div>
-    <script>
-        var mochi = new Vue({
-            el: "#card",
-            data: {
-                todos: [
-                    { src: "./web/img/封/1.png" },
-                    { src: "./web/img/封/1.png" },
-                    { src: "./web/img/封/1.png" },
-                    { src: "./web/img/封/1.png" },
-                    { src: "./web/img/封/1.png" },
-                    { src: "./web/img/封/1.png" },
-                ]
-            },
-            data: { todos: [] }
-
-        });
-        $.ajax({
-            url: "/portfolio",
-            method: "get",
-            dataType: "json",
-            success: function (data) {
-                mochi.todos = data;
-            }
-
-        });
-    </script>
+    
 </body>
 
 </html>
