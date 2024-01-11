@@ -56,7 +56,7 @@ server.set("view", __dirname + "/view");//(view)
 
 server.get("/portfolio", function (req, res) {//------------接收form資料
 
-    Birds.find({}).then(results => {
+    web.find({}).then(results => {
         if (results != null) {
             res.send(results);
         } else {

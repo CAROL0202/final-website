@@ -1030,6 +1030,7 @@
         "formidable": "^3.5.1",
         "gsap": "^3.12.4",
         "jquery": "^3.7.1",
+        "nedb-promises": "^6.2.3",
         "node": "^21.2.0",
         "nodemon": "^3.0.2",
         "vue": "^3.4.7"
