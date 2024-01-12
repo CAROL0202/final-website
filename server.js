@@ -14,7 +14,13 @@ server.use(bodyParser.json());
 //const formidable = require('formidable')
 var DB = require("nedb-promises");
 var web = DB.create("web.db");
-
+PortfolioDB.insert([
+    { href: "#portfolioModal1", imgSrc: "/img/LINE_logo.svg.png" },
+    { href: "#portfolioModal2", imgSrc: "/img/page-info-2018126-ac3aa1eb-ba29-4db3-8478-5106acf2feef-600.png" },
+    { href: "#portfolioModal3", imgSrc: "/img/fb_icon_325x325.png",  },
+    { href: "#portfolioModal1", imgSrc: "/img/3610206.png",  },
+   
+])
 //ctrlkc or ctrlku
 
 // var DB = require("nedb-promises");
